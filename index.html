@@ -1,0 +1,58 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Expense Manager</title>
+
+</head>
+<body>
+    <h1>Expense Manager</h1>
+    <div class="flex-box" id="box1">
+        <div>
+            <h3> Resource Block</h3>
+            <form>
+                <placeholder for="salary">Enter the Salary</placeholder>
+                <input type="text" id="salary">
+                <placeholder for="otherResources"> Other Resources</placeholder>
+                <input type="text" id="otherResource">
+            </form>
+        </div>
+        <div>
+            <h3> Expenditure Block</h3>
+            <form>
+                <div>
+                    <placeholder for="Rent">Enter the Rent Amount</placeholder>
+                    <input type="text" id="rent"><br>
+                </div>
+                <div>
+                    <placeholder for="medicine">Enter The Expense For Medicine</placeholder>
+                    <input type="text" id="medicine"><br>
+                </div>
+                <div>
+                    <placeholder for="shopping">Enter the Shopping Expense</placeholder>
+                    <input type="text" id="shopping"><br>
+                </div>
+                <div>
+                    <placeholder for="food">Enter the Food Expense</placeholder>
+                    <input type="text" id="food"><br>
+                </div>
+                <div>
+                    <placeholder for="Otherexpens">Enter All Other Expenses</placeholder>
+                    <input type="text" id="others">
+                </div>
+            </form>
+        </div>
+        <div>
+            <button onclick="balance()">Submit</button>
+        </div>
+        <div>
+            <h3>Output Block</h3>
+            <h3>Total Money Earned:</h3>
+            <p id="totalmoneyearned"></p>
+            <h3>Total Money Expense:</h3>
+            <p id="totalmoneyexpense"></p>
+            <h3>Balance Amount:</h3>
+            <p id="balanceamt"></p>
+            <h1 id="alert"></h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
